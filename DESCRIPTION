@@ -1,9 +1,9 @@
 Package: fbprogram
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Manages Meta-data of a Breeding Program
+Version: 0.0.1
+Authors@R: person("Reinhard", "Simon", email = "r.simon@cgiar.org", role = c("aut", "cre"))
+Description: Manages Meta-data of a Breeding Program.
 Depends: R (>= 3.2.2)
 License: What license is it under?
 LazyData: true
-Suggests: testthat
+Suggests: testthat, fbglobal, fbcrops
