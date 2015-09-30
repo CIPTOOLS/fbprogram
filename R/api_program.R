@@ -41,7 +41,7 @@ get_program_table <- function(){
 #'
 #' store program table
 #'
-#' @param table_program a data frame
+#' @param table_programs a data frame
 #' @author Reinhard Simon
 #' @export
 post_program_table <- function(table_programs){

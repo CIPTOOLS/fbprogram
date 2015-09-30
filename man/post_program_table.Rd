@@ -7,7 +7,7 @@
 post_program_table(table_programs)
 }
 \arguments{
-\item{table_program}{a data frame}
+\item{table_programs}{a data frame}
 }
 \description{
 store program table
