@@ -1,4 +1,4 @@
-#' shiny UI element
+#' ui_program
 #'
 #' returns a re-usable user interface element
 #'
@@ -17,11 +17,7 @@ ui_program <- function(type = "tab", title = "Breeding program configuration",
               title = title,
               rhandsontable::rHandsontableOutput(output)
             )
-            # ,
-            # box(
-            #   title = "Breeding program stage configuration",
-            #   rHandsontableOutput("hot_program_stages")
-            # )
+
           )
   )
 }

@@ -2,9 +2,9 @@
 % Please edit documentation in R/server.R
 \name{server_program}
 \alias{server_program}
-\title{Server side logic}
+\title{server_program}
 \usage{
-server_program(input, output, session, dom = "hot_program")
+server_program(input, output, session, dom = "hot_program", values)
 }
 \arguments{
 \item{input}{shinyserver input}
@@ -14,6 +14,8 @@ server_program(input, output, session, dom = "hot_program")
 \item{session}{shinyserver session}
 
 \item{dom}{target dom element name}
+
+\item{values}{reactive values}
 }
 \description{
 Constructs table

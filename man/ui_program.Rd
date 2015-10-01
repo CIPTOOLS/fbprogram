@@ -2,7 +2,7 @@
 % Please edit documentation in R/ui_program.R
 \name{ui_program}
 \alias{ui_program}
-\title{shiny UI element}
+\title{ui_program}
 \usage{
 ui_program(type = "tab", title = "Breeding program configuration",
   name = "resource_program", output = "hot_program")
