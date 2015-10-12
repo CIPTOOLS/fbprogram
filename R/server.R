@@ -16,7 +16,7 @@ server_program <- function(input, output, session, dom="hot_program", values){
   shiny::observe({
     input$saveBtn
     if (!is.null(values[[dom]])) {
-      fbprogram::post_program_table(values[[dom]])
+      post_program_table(values[[dom]])
     }
 
   })
